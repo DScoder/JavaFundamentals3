@@ -1,0 +1,21 @@
+/* компиляция и работа первого задания в cmd в моем случае */
+
+
+Microsoft Windows [Version 10.0.10586]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2015. Все права защищены.
+
+C:\Users\Ilya>cd C:\Java\IDEA Projects\JavaFundamentals3
+
+C:\Java\IDEA Projects\JavaFundamentals3>javac -sourcepath intro\src\javase01\t01\logic -d classes\production\intro intro\src\javase01\t01\main\Main.java
+
+C:\Java\IDEA Projects\JavaFundamentals3>java -classpath classes\production\intro Main
+I am string in Logic.
+
+
+
+
+
+/* команды для компиляции и запуска в более абстраутном случае */
+
+--> javac -sourcepath src\javase01\t01\logic -d classes src\javase01\t01\main\Main.java
+--> java -classpath classes Main
